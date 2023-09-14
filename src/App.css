@@ -11,3 +11,6 @@ body {
     margin-inline: auto;
     max-width: 1325px;
 }
+button:hover{
+    background: rgb(27, 89, 164);
+}

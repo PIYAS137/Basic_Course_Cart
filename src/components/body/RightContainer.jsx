@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 
 
-const RightContainer = ({ clickedDataArr, remainingHour, totalHours }) => {
+const RightContainer = ({ clickedDataArr, remainingHour, totalHours, totalPrices }) => {
 
 
   return (
@@ -20,7 +20,7 @@ const RightContainer = ({ clickedDataArr, remainingHour, totalHours }) => {
         <hr className="block my-4" />
         <h1 className="font-semibold text-gray-600">Total Credit Hour : {totalHours}</h1>
         <hr className="block my-4" />
-        <h1 className="font-semibold text-gray-600">Total Price : 48000 USD</h1>
+        <h1 className="font-semibold text-gray-600">Total Price : {totalPrices} USD</h1>
       </div>
     </div>
   )
@@ -29,7 +29,8 @@ const RightContainer = ({ clickedDataArr, remainingHour, totalHours }) => {
 RightContainer.propTypes = {
   clickedDataArr: PropTypes.array.isRequired,
   remainingHour: PropTypes.number.isRequired,
-  totalHours: PropTypes.number.isRequired
+  totalHours: PropTypes.number.isRequired,
+  totalPrices: PropTypes.number.isRequired
 }
 
 export default RightContainer
