@@ -3,4 +3,9 @@
 /* ---------------google font--------------- */
 body{
     font-family: 'Inter', sans-serif;
+    background: #F3F3F3;
+}
+.containerx{
+    margin-inline:auto;
+    max-width: 1325px;
 }

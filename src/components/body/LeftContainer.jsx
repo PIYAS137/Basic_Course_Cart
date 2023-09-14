@@ -9,7 +9,7 @@ const LeftContainer = () => {
 
 
   return (
-    <div className=" col-span-3">
+    <div className=" col-span-3 grid grid-cols-3 gap-6">
         {datas.map((one,idx)=><SingleCard key={idx} data={one}/>)}
     </div>
   )
