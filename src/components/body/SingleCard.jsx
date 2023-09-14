@@ -9,7 +9,7 @@ const SingleCard = ({data}) => {
 
 
   return (
-    <div className='p-4 bg-white rounded-xl'>
+    <div className='p-4 bg-white rounded-xl hover:shadow-2xl'>
         <img src={image} alt="" />
         <h1 className='my-4 text-lg font-semibold'>{title}</h1>
         <p className=' text-sm mb-5 text-justify text-gray-500'>{description}</p>
