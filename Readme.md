@@ -2,9 +2,7 @@
 live link : https://courseregistration001.netlify.app/
 
 
-##  Questions :
-
-## 1. Add at least 3 Project features 
+## 3 features i use in this project
 
 - <h3>State Management</h3>
     State management is one of the most important and major part of an project of React.Js. I manage my all the state by using "useState()" hook. useState() hook is a builtin function that give us the chance to update spacefic update and on this update we can render someting on your html page. In this project I used many useState() hook and manage my states properly. My project json data first I map and then clicked data stored in a hook name "clickedData". For update the values of clickedData i use "setClickedData()" that is a callback function of this useState() hook. actually useState() hook return two things. one is value and another is a callback function. By using this callback function we can update our value that is use in my another state name "totalHour ,totalPrices, remainingHours" states! 
@@ -24,8 +22,6 @@ live link : https://courseregistration001.netlify.app/
 <br>
 <br>
 <br>
-
-## 2. Discuss how you managed the state in your assignment project.
 
 - <h3>Using "useState()" hook</h3>
 
